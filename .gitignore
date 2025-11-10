@@ -18,3 +18,4 @@ log
 tools/.ipynb*
 **.ipynb
 output
+.venvs

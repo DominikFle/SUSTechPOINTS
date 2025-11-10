@@ -1,9 +1,19 @@
 # SUSTechPOINTS: Point Cloud 3D Bounding Box Annotation Tool For Autonomous Driving
 
+## Usage with React:
+
+0. Activate venv: source .venvs/sustech/Scripts/activate
+1. python -m pip install -r requirement.txt
+2. python main.py
+3. npm install .
+4. npm start
+
 ### Main UI
+
 ![screenshot](./doc/main-ui.png)
 
 ### Automatic yaw angle (z-axis) prediction.
+
 ![auto-rotate](./doc/auto-rotate.gif)
 
 ### batch-mode box editing
@@ -27,8 +37,6 @@ semi-auto-annotation
 - Stream play/stop
 - Object ID generation
 
-
-
 ## Get started
 
 [Docker](./doc/docker.md)
@@ -38,6 +46,7 @@ semi-auto-annotation
 [uwsgi](./doc/deploy_server.md)
 
 ## Operations
+
 [Operations](./doc/operations.md)
 
 [Shortcuts(中文)](./doc/shortcuts_cn.md)
@@ -45,15 +54,16 @@ semi-auto-annotation
 ## Cite
 
 If you find this work useful in your research, please consider cite:
+
 ```
 @INPROCEEDINGS{9304562,
   author={Li, E and Wang, Shuaijun and Li, Chengyang and Li, Dachuan and Wu, Xiangbin and Hao, Qi},
-  booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)}, 
-  title={SUSTech POINTS: A Portable 3D Point Cloud Interactive Annotation Platform System}, 
+  booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},
+  title={SUSTech POINTS: A Portable 3D Point Cloud Interactive Annotation Platform System},
   year={2020},
   volume={},
   number={},
   pages={1108-1115},
   doi={10.1109/IV47402.2020.9304562}}
-  
+
 ```

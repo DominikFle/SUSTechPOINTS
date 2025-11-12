@@ -6,7 +6,8 @@
 1. python -m pip install -r requirement.txt
 2. python main.py
 3. npm install .
-4. npm start
+4. npm run build
+5. npm start
 
 ### Main UI
 
